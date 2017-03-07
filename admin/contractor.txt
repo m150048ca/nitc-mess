@@ -1,0 +1,16 @@
+$sql = "SELECT c.sid,c.statement from complaint c,mess m \n"
+    . "where c.sid=m.sid and m.cid=\'c100\'";
+	
+	
+//search query
+
+"SELECT ` student`.sid,` student`.`name`,` student`.branch,` student`.`sem` from ` student`,mess,contractor\n"
+    . " where ` student`.sid=mess.sid and mess.cid =contractor.cid and mess.cid =\"c1000\"";
+
+
+
+//$sql = "SELECT b.extra_charge from bill b,mess m,contractor c \n"
+    . "where b.sid=m.sid and m.cid=c.cid";
+
+
+select sid from mess, contractor where mess.cid = value  mess.sid =value; 	
